@@ -12,8 +12,14 @@ public class Main {
         System.out.println("Please Enter your Name");
         
         String enteredName=name.nextLine();
+        if (enteredName.equals("Alice")||enteredName.equals("Bob"))
+        {
         System.out.println ("Hello "+ enteredName);
-        
+    }
+    
+    else {
+        System.out.println("You are not Alice or Bob");
 
     }
+}
 }
